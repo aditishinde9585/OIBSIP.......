@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aditi Shinde | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Aditi Shinde</h1>
+      <div class="menu-toggle" id="menuToggle">☰</div>
+      <div class="nav-links" id="navLinks">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Static Background Image (replaces star layer) -->
+  <img src="images/bgi_jpg" class="bg-svg" alt="Background" />
+
+ 
+
+  <!-- Home Section -->
+  <section id="home" class="section">
+    <img src="images/profile_jpg" alt="Aditi" class="profile">
+    <h2>Hello, I'm Aditi 👋</h2>
+    <div id="typedText"></div>
+    <p class="mission">
+      My goal is to solve problems using code and creativity.<br>
+      I love turning challenges into smart web applications.
+    </p>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>I'm <strong>Aditi Shinde</strong>, a second‑year AIML student who loves transforming ideas into digital solutions. I specialize in full‑stack web development and am exploring AI/ML to build smart apps. I enjoy coding, design, logic building, and collaboration.</p>
+    <a href="resume.pdf" download class="btn">📄 Download Resume</a>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section">
+    <h2>Skills</h2>
+    <p>HTML</p>
+    <div class="skill-bar"><div class="skill-bar-inner" data-width="90%"></div></div>
+    <p>CSS</p>
+    <div class="skill-bar"><div class="skill-bar-inner" data-width="85%"></div></div>
+    <p>JavaScript</p>
+    <div class="skill-bar"><div class="skill-bar-inner" data-width="75%"></div></div>
+    <p>Python</p>
+    <div class="skill-bar"><div class="skill-bar-inner" data-width="80%"></div></div>
+    <p>Flask</p>
+    <div class="skill-bar"><div class="skill-bar-inner" data-width="70%"></div></div>
+    <p>Machine Learning (Basic)</p>
+    <div class="skill-bar"><div class="skill-bar-inner" data-width="65%"></div></div>
+  </section>
+
+  <!-- Projects Section (Flip Cards) -->
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front"><h3>To‑Do Web App</h3></div>
+        <div class="flip-card-back">
+          <p>Task manager with calendar view, filtering, and AI suggestions. Built using HTML, CSS, JS.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front"><h3>Finance Tracker</h3></div>
+        <div class="flip-card-back">
+          <p>Expense tracker with ML predictions using Flask, SQLite, Chart.js, and Pandas.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front"><h3>Login System</h3></div>
+        <div class="flip-card-back">
+          <p>Flask login/register system with email alerts, avatars, and password reset.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front"><h3>Portfolio Website</h3></div>
+        <div class="flip-card-back">
+          <p>Animated personal site with glow, transitions, and confetti. Built using HTML, CSS, JS.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Aditi Shinde. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
